@@ -7,7 +7,7 @@ import PostsList from "./components/PostsList";
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">Hello World</div>
+      <div className="App">Redux React with Hooks</div>
       <PostsList />
     </Provider>
   );
